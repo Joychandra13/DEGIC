@@ -45,7 +45,7 @@ function Blog() {
             {
                 CardData.map((Card)=>(
                     <div key={Card.id}>
-                        <div className='bg-gray-100 rounded-xl p-3 h-[275px] '>
+                        <div className='bg-gray-100 rounded-xl p-4 h-[275px] '>
                             <img className='w-full object-cover' src={Card.img} alt="" />
                         </div>
                         <div className='p-6'>
